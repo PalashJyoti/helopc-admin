@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#323232"/>
+    <TextView
+        android:id="@+id/orderid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order ID"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/itcavant"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+    <TextView
+        android:id="@+id/way"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mode of payment"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+</LinearLayout>

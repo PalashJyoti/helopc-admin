@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="com.helopc_manage.app.BottomSheet_Size">
+<RelativeLayout
+    android:gravity="center"
+    android:paddingStart="4dp"
+    android:paddingEnd="4dp"
+    android:layout_marginBottom="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/colour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:fontFamily="@font/metro_m"
+        android:text="Colour"
+        android:gravity="center"
+        android:textSize="18sp" />
+
+</RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:fontFamily="@font/metro_m"
+        android:text="Stock Availability"
+        android:gravity="center"
+        android:textSize="16sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/stock"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Stock" />
+        <EditText
+            android:id="@+id/etS"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAlignment="center"/>
+        <Button
+            android:id="@+id/btnS"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="match_parent"
+            android:text="Update"/>
+    </LinearLayout>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="20dp"
+        android:background="#BA0E0E"
+        android:padding="11dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:textColor="#fff"
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Colour"
+        android:fontFamily="@font/metro_m"/>
+</LinearLayout>

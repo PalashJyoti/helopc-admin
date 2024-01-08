@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="com.helopc_manage.app.BottomSheet">
+<RelativeLayout
+    android:paddingStart="4dp"
+    android:paddingEnd="4dp"
+    android:layout_marginBottom="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product"
+        android:textSize="16sp"
+        android:id="@+id/product"
+        android:fontFamily="@font/metro_m"/>
+    <TextView
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textSize="16sp"
+        android:id="@+id/category"
+        android:fontFamily="@font/metro_m"/>
+</RelativeLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:padding="20dp"
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Images"
+        android:fontFamily="@font/metro_m"
+        android:layout_marginBottom="20dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:padding="20dp"
+        android:id="@+id/des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Descriptions"
+        android:fontFamily="@font/metro_m"
+        android:layout_marginBottom="20dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:padding="20dp"
+        android:id="@+id/colour"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Colours/Stock"
+        android:fontFamily="@font/metro_m"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:padding="20dp"
+        android:id="@+id/offer"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Offer"
+        android:fontFamily="@font/metro_m"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="#BA0E0E"
+        android:padding="11dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:textColor="#fff"
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Product"
+        android:fontFamily="@font/metro_m"/>
+</LinearLayout>

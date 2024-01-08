@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.helopc_manage.app.Cancelled_Orders">
+    <TextView
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelled Orders"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/recyclerView"/>
+</LinearLayout>
